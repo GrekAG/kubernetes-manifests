@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-static
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web-static
+  template:
+    metadata:
+      labels:
+        app: web-static
+    spec:
+      containers:
+      - name: web
+        image: nginx:latest
+        volumeMounts:
+        - mountPath: /usr/share/nginx/html
+          name: web-content
+      volumes:
+      - name: web-content
+        persistentVolumeClaim:
+          claimName: web-content-pvc

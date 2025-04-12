@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: web-content-pv
+spec:
+  capacity:
+    storage: 1Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: C:\Users\grego\OneDrive\Escritorio\ITU\4_Semestre\Computacion_en_la_nube\Modulo_3_C_Nube\0311at\static-website
