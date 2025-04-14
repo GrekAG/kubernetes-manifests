@@ -26,8 +26,8 @@
 ### 1. Clonar los Repositorios
 
 ```bash
-git clone https://github.com/GrekAG/pagina-web
-git clone https://github.com/GrekAG/manifiestos-kubernetes.git
+git clone https://github.com/GrekAG/static-website
+git clone https://github.com/GrekAG/kubernetes-manifests
 ```
 
 ---
