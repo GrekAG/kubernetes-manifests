@@ -9,5 +9,5 @@ spec:
     - ReadWriteOnce
   storageClassName: ""
   hostPath:
-    path: /c/Users/grego/OneDrive/Escritorio/ITU/4_Semestre/Computacion_en_la_nube/Modulo_3_C_Nube/0311at/static-website
+    path: /mnt/web
 
