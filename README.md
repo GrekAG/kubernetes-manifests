@@ -36,6 +36,8 @@ git clone https://github.com/GrekAG/kubernetes-manifests
 
 ```bash
 minikube start -p 0311at
+minikube -p 0311at mount "C:/carpeta/donde/clonaste/el/static-website:/mnt/web"
+mantener el CMD abierto
 ```
 
 ### 3. Aplicar los manifiestos
@@ -53,8 +55,8 @@ kubectl apply -f servicio/
 ### 4. Verificar que todo funcione
 
 ```bash
-kubectl get pods
-kubectl get svc
+kubectl get pv
+kubectl get pvc
 ```
 
 ---
