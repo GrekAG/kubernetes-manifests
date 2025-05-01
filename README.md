@@ -1,3 +1,16 @@
+## ⚠️ Aviso para usar el script en Windows
+
+Devido a que estos comandos estan pensados para ejecutarse en Linux tendra que modificar la linea 38 del archivo `0505AT`:
+```
+nohup minikube -p "$PROFILE" mount "$LOCAL_PATH:$MOUNT_PATH" &> /tmp/minikube-mount.log &
+```
+
+                            Remplace el fragmento "$LOCAL_PATH"⤴️
+                            Por la ruta de la carpeta⤵️  Generalmete es: C:\Users\usuario\static-website
+```
+nohup minikube -p "$PROFILE" mount "C:/ruta/del/static-website:$MOUNT_PATH" &> /tmp/minikube-mount.log &
+```
+
 ## 🧱 Estructura del Proyecto
 
 ```
