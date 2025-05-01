@@ -4,7 +4,7 @@ Devido a que estos comandos estan pensados para ejecutarse en Linux tendra que m
 ```
 nohup minikube -p "$PROFILE" mount "$LOCAL_PATH:$MOUNT_PATH" &> /tmp/minikube-mount.log &
 ```
-
+--
                             Remplace el fragmento "$LOCAL_PATH"⤴️
                             Por la ruta de la carpeta⤵️  Generalmete es: C:\Users\usuario\static-website
 ```
