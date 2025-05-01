@@ -33,6 +33,20 @@ nohup minikube -p "$PROFILE" mount "C:/ruta/del/static-website:$MOUNT_PATH" &> /
 - Cuenta de [GitHub](https://github.com/)
 
 ---
+## ⚙️ Pasos para Arrancar el Script
+
+### 1. Descarga solo el archivo `0505AT`
+
+### 2. Dentro de la carpeta donde lo hayas guardado abre Git Bash
+
+### 3. Ejecuta los siguiente comandos
+
+```bash
+chmod +x 0505AT_AgueroG.sh
+./0505AT_AgueroG.sh
+```
+
+---
 
 ## 🛠 Pasos para Reproducir el Entorno
 
